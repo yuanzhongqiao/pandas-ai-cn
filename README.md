@@ -61,29 +61,7 @@ PandasAI 是 一个拥有chaGPT能力的的Python 库，结合 [pandas](https://
 
 <span class="pl-s1">df</span> <span class="pl-c1">=</span> <span class="pl-v">SmartDataframe</span>(<span class="pl-s1">df</span>, <span class="pl-s1">config</span><span class="pl-c1">=</span>{<span class="pl-s">"llm"</span>: <span class="pl-s1">llm</span>})
 <span class="pl-s1">df</span>.<span class="pl-en">chat</span>(<span class="pl-s">'Which are the 5 happiest countries?'</span>)</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import pandas as pd
-from pandasai import SmartDataframe
-
-# Sample DataFrame
-df = pd.DataFrame({
-    &quot;country&quot;: [&quot;United States&quot;, &quot;United Kingdom&quot;, &quot;France&quot;, &quot;Germany&quot;, &quot;Italy&quot;, &quot;Spain&quot;, &quot;Canada&quot;, &quot;Australia&quot;, &quot;Japan&quot;, &quot;China&quot;],
-    &quot;gdp&quot;: [19294482071552, 2891615567872, 2411255037952, 3435817336832, 1745433788416, 1181205135360, 1607402389504, 1490967855104, 4380756541440, 14631844184064],
-    &quot;happiness_index&quot;: [6.94, 7.16, 6.66, 7.07, 6.38, 6.4, 7.23, 7.22, 5.87, 5.12]
-})
-
-# Instantiate a LLM
-from pandasai.llm import OpenAI
-llm = OpenAI(api_token=&quot;YOUR_API_TOKEN&quot;)
-
-df = SmartDataframe(df, config={&quot;llm&quot;: llm})
-df.chat('Which are the 5 happiest countries?')" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上面的代码将返回以下内容：</font></font></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>6            Canada
