@@ -1,4 +1,4 @@
-# PandasAI 🐼
+# PandasAI  跟你的数据聊聊天 🐼
 
 [![Release](https://img.shields.io/pypi/v/pandasai?label=Release&style=flat-square)](https://pypi.org/project/pandasai/)
 [![CI](https://github.com/gventuri/pandas-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/gventuri/pandas-ai/actions/workflows/ci.yml/badge.svg)
@@ -9,13 +9,13 @@
 [![Downloads](https://static.pepy.tech/badge/pandasai)](https://pepy.tech/project/pandasai) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open in Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/1ZnO-njhL7TBOYPZaqvMvGtsjckZKrv2E?usp=sharing)
 
-PandasAI is a Python library that adds Generative AI capabilities to [pandas](https://github.com/pandas-dev/pandas), the popular data analysis and manipulation tool. It is designed to be used in conjunction with pandas, and is not a replacement for it.
+PandasAI 是 一个拥有chaGPT能力的的Python 库，结合 [pandas](https://github.com/pandas-dev/pandas), 和你的数据聊聊天，那几个数比较大？
 
 <!-- Add images/pandas-ai.png -->
 
 ![PandasAI](images/pandas-ai.png?raw=true)
 
-## 🔧 Quick install
+ 
 
 <div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-pandasai-" class="anchor" aria-hidden="true" tabindex="-1" href="#pandasai-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">熊猫人工智能🐼</font></font></h1>
 <p dir="auto"><a href="https://pypi.org/project/pandasai/" rel="nofollow"><img src="https://camo.githubusercontent.com/d768e74f543b372c07fd64ba058dcb6679d5d72c440a16f2b32419fd6c7db806/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f70616e64617361693f6c6162656c3d52656c65617365267374796c653d666c61742d737175617265" alt="发布" data-canonical-src="https://img.shields.io/pypi/v/pandasai?label=Release&amp;style=flat-square" style="max-width: 100%;"></a>
